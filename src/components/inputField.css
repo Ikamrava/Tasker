@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.inputWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.inputForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 2rem;
+  padding: 0;
+  
+  
+}
+
+
+.inputField{
+    height: 2.5rem;
+    width: 50vw;
+    border-radius: 20px;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 5rem;
+}
+
+.goBtn{
+    flex: 1;
+    position: absolute;
+    right:0;
+    border-radius: 50%;
+    background-color: #488189;
+    padding: 7px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    
+}

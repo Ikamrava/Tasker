@@ -1,0 +1,43 @@
+.listsWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: .1rem ;
+    margin-top: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 48%;
+    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.iconwrapper{
+    display: flex;
+    gap: .3rem;
+}
+
+@media(max-width: 600px) { 
+    .listsWrapper {
+            width: 100%;
+            
+        }
+    .card{
+            display: flex;
+            flex-direction: row;
+            width: 95%;
+            height: 2.5rem;
+}
+}
